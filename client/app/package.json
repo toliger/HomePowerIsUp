@@ -1,0 +1,9 @@
+{
+  "name": "HomePowerIsUpClient",
+  "version": "1.0.1",
+  "description": "HomePowerIsUp",
+  "main": "app.js",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}

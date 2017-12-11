@@ -1,0 +1,9 @@
+{
+  "apps": [{
+    "name": "HomePowerIsUp",
+    "script": "app.js",
+    "env": {
+      "production": true
+    }
+  }]
+}
