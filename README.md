@@ -17,4 +17,12 @@
 
 
 # Client side
+
+## Docker Hub
+
 [Client Docker Hub](https://hub.docker.com/r/oligertimothee/powerisupclient/)
+
+## Environment variables
+
+* HOST
+* PORT
