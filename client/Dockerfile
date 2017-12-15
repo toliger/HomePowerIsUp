@@ -10,6 +10,8 @@ RUN npm i -g pm2
 
 ADD client/app /app
 
-ENTRYPOINT pm2 start /app/app.js && while true; do sleep 1000; done
+RUN cd /app && npm i
+
+ENTRYPOINT cd / app && pm2 start app.js && while true; do sleep 1000; done
 
 EXPOSE  8080
