@@ -1,4 +1,4 @@
-FROM oligertimothee/rpi-raspbian-with-pm2
+FROM oligertimothee/rpi-raspbian-with-pm2:latest
 
 ADD app .
 
