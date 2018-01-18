@@ -1,6 +1,4 @@
-FROM keymetrics/pm2:latest
-
-LABEL maintainer="Oliger Timothee"
+FROM oligertimothee/rpi-raspbian-with-pm2
 
 ADD app .
 
