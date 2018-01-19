@@ -7,6 +7,8 @@ var host =	'home.oligertimothee.fr';
 
 var port = 80;
 
+request.get('https://'+ host + '/setSignalUp?uuid=test');
+
 setInterval(() => {
 	request.get('https://'+ host + '/setSignalUp?uuid=test');
 }, 30 * 60 * 1000);
